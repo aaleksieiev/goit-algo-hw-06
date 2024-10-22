@@ -42,6 +42,16 @@ Write a program that uses the DFS and BFS algorithms to find paths in the graph 
 
 Then compare the results of both algorithms for this graph, highlighting the difference in the paths obtained. Please explain why the paths for the algorithms are the way they are.
 
+Starting point "Lviv"
+
+DFS - starting from the start vertex, traversed all neighboring vertices until the end
+
+Львів Мукачево Чоп Івано-Франківськ Рахів Коломия Чернівці Красне Тернопіль Хмельницький Жмеринка Одеса Козятин Здолбунів Шепетівка Звягель Коростень Сарни Ковель Київ Полтава Харків Дніпро Запоріжжя Мелітополь Новоолексіївка Кривий Ріг Сміла Біла Церква Фастів Конотоп Шостка 
+ 
+ BFS - descends a level from the initial vertex and traverses all vertices at each level
+
+Львів Здолбунів Івано-Франківськ Красне Мукачево Шепетівка Козятин Рахів Тернопіль Чоп Звягель Жмеринка Фастів Коломия Хмельницький Коростень Одеса Київ Біла Церква Чернівці Сарни Полтава Конотоп Сміла Ковель Харків Шостка Дніпро Запоріжжя Кривий Ріг Мелітополь Новоолексіївка
+
 ## Task 3
 
 Implement Dijkstra's algorithm to find the shortest path in the developed graph: add weights to the edges and find the shortest path between all graph vertices.
