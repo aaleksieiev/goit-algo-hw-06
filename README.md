@@ -54,4 +54,6 @@ DFS - starting from the start vertex, traversed all neighboring vertices until t
 
 ## Task 3
 
-Implement Dijkstra's algorithm to find the shortest path in the developed graph: add weights to the edges and find the shortest path between all graph vertices.
+Implement Dijkstra's algorithm to find the shortest path in the developed graph: add weights to the edges and find the shortest path between all graph vertices. (# the distances between cities do not correspond to reality)
+
+{'Київ': 812, 'Коростень': 770, 'Звягель': 570, 'Шепетівка': 270, 'Здолбунів': 120, 'Львів': 0, 'Ковель': 1140, 'Сарни': 970, 'Фастів': 592, 'Козятин': 262, 'Жмеринка': 488, 'Хмельницький': 388, 'Тернопіль': 238, 'Красне': 115, 'Одеса': 658, 'Івано-Франківськ': 210, 'Рахів': 444, 'Коломия': 614, 'Чернівці': 737, 'Конотоп': 1145, 'Шостка': 1415, 'Полтава': 1212, 'Харків': 1218, 'Біла Церква': 742, 'Сміла': 972, 'Дніпро': 1095, 'Кривий Ріг': 1218, 'Запоріжжя': 1417, 'Мелітополь': 1450, 'Новоолексіївка': 1561, 'Мукачево': 200, 'Чоп': 500}
